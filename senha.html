@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reconhecimento de Senha</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <section class="card">
+
+            <h1>🔐 Reconhecimento de Senha</h1>
+
+            <p class="descricao">
+                Digite uma senha para verificar se ela atende aos requisitos de segurança.
+            </p>
+
+            <div class="campo-senha">
+
+                <input
+                    type="password"
+                    id="senha"
+                    placeholder="Digite sua senha"
+                >
+
+                <button id="mostrarSenha">
+                    Mostrar
+                </button>
+
+            </div>
+
+            <h2>Requisitos da senha:</h2>
+
+            <ul class="requisitos">
+
+                <li id="tamanho">
+                    ❌ Pelo menos 8 caracteres
+                </li>
+
+                <li id="maiuscula">
+                    ❌ Pelo menos uma letra maiúscula
+                </li>
+
+                <li id="minuscula">
+                    ❌ Pelo menos uma letra minúscula
+                </li>
+
+                <li id="numero">
+                    ❌ Pelo menos um número
+                </li>
+
+                <li id="especial">
+                    ❌ Pelo menos um caractere especial
+                </li>
+
+            </ul>
+
+            <div class="barra-container">
+
+                <div id="progresso"></div>
+
+            </div>
+
+            <p id="nivel"></p>
+
+            <div id="resultado"></div>
+
+            <div class="dica">
+
+                <strong>💡 Dica:</strong>
+
+                <p>
+                    Use senhas longas, misture letras maiúsculas e minúsculas,
+                    números e caracteres especiais.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
