@@ -1,0 +1,203 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 550px;
+}
+
+.card {
+    background: white;
+    padding: 35px;
+    border-radius: 20px;
+
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+    color: #1f2937;
+    margin-bottom: 10px;
+}
+
+.descricao {
+    text-align: center;
+    color: #6b7280;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #374151;
+}
+
+.input-area {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 14px;
+
+    border: 2px solid #d1d5db;
+    border-radius: 10px;
+
+    font-size: 16px;
+    outline: none;
+
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #2563eb;
+}
+
+button {
+    padding: 0 18px;
+
+    border: none;
+    border-radius: 10px;
+
+    background-color: #2563eb;
+    color: white;
+
+    cursor: pointer;
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+.requisitos {
+    margin-top: 25px;
+
+    padding: 20px;
+
+    background-color: #f9fafb;
+
+    border-radius: 12px;
+}
+
+.requisitos h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #374151;
+}
+
+.requisitos p {
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.valido {
+    color: #16a34a;
+}
+
+.invalido {
+    color: #dc2626;
+}
+
+.resultado {
+    margin-top: 20px;
+
+    padding: 15px;
+
+    border-radius: 10px;
+
+    text-align: center;
+
+    font-weight: bold;
+
+    background-color: #f3f4f6;
+
+    color: #374151;
+}
+
+.barra {
+    width: 100%;
+    height: 12px;
+
+    background-color: #e5e7eb;
+
+    border-radius: 20px;
+
+    margin-top: 20px;
+
+    overflow: hidden;
+}
+
+#progresso {
+    width: 0%;
+    height: 100%;
+
+    border-radius: 20px;
+
+    transition: 0.4s;
+}
+
+.nivel {
+    text-align: center;
+
+    margin-top: 10px;
+
+    font-weight: bold;
+
+    color: #374151;
+}
+
+.fraca {
+    background-color: #dc2626;
+}
+
+.media {
+    background-color: #f59e0b;
+}
+
+.forte {
+    background-color: #16a34a;
+}
+
+.muito-forte {
+    background-color: #2563eb;
+}
+
+.dica {
+    margin-top: 25px;
+
+    padding: 15px;
+
+    background-color: #eff6ff;
+
+    border-left: 5px solid #2563eb;
+
+    border-radius: 8px;
+
+    color: #374151;
+
+    font-size: 14px;
+
+    line-height: 1.5;
+}
